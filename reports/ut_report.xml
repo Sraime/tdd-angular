@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <unitTest version="1">
-    <file path="/Users/sobraz/Documents/workspace/training/tdd-angular/src/app/app.component.spec.ts">
-        <testCase name="AppComponent should create the app" duration="241"/>
-        <testCase name="AppComponent should have as title &apos;tdd-angular&apos;" duration="192"/>
-        <testCase name="AppComponent should render title" duration="109"/>
+    <file path="/Users/sobraz/Documents/workspace/training/tdd-angular/src/app/global-message/global-message.component.spec.ts">
+        <testCase name="GlobalMessageComponent should create" duration="69"/>
     </file>
 </unitTest>
