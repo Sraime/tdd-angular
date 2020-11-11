@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GlobalMessageComponent implements OnInit {
 
+  public message: string;
+  public isEditMode: boolean;
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.message = ""
+    this.isEditMode = false;
+  }
+
+  changeModeAction() {
+    this.isEditMode = !this.isEditMode;
   }
 
 }

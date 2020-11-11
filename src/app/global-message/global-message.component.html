@@ -1,1 +1,3 @@
-<p>global-message works!</p>
+<p *ngIf="message && !isEditMode" class="message">{{message}}</p>
+<input [(ngModel)]="message" *ngIf="isEditMode " type="text" value="{{message}}" class="input-msg" />
+<button (click)="changeModeAction()" class="btn-mode">{{isEditMode ? "save" : "modify"}}</button>
