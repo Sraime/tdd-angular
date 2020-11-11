@@ -1,33 +1,27 @@
-## TDD in practice with Angular
+# TddAngular
 
-Ce projet a pour but de mettre en pratique la réalisation d'un component angular.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
-### Le sujet est le suivant :
+## Development server
 
-Vous dévez réaliser un component permettant d'afficher un message. Celui-ci doit être configurable via un mode d'édition. 
-Les caractéristiques sont les suivantes :
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-**Le message a deux modes :**
-- Visualisation : le texte du message est affiché
-- Édition : possibilité de modifier le texte du message
+## Code scaffolding
 
-**Par défaut :**
-- Le message est une chaîne de caractères vide
-- Le mode visualisation est actif
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-**Un bouton permet de changer le mode :**
-- En mode visualisation le bouton à le texte « modify » et permet, au clique, de passer en mode édition 
-- En mode édition le bouton à le texte « save » et permet, au clique, de sauvegarder le texte et de passer en mode visualisation
+## Build
 
-**NB :** Quand le texte du message est vide, rien n'est affiché
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-**Voici un exemple de solution**
+## Running unit tests
 
-visualisation  - message vide
-<img src="https://zupimages.net/up/19/23/yocy.png" width="300" />
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-visualisation - message non-vide
-<img src="https://zupimages.net/up/19/23/q9sk.png" width="300" />
+## Running end-to-end tests
 
-édition
-<img src="https://zupimages.net/up/19/23/yocy.png" width="300" />
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
