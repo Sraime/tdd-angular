@@ -1,0 +1,3 @@
+<p *ngIf="!isChangeModeActive" id="msg-dialog">{{message}}</p>
+<input [(ngModel)]="message" *ngIf="isChangeModeActive" type="text" name="message" id="tbx-message" />
+<button id="btn-change-mode" (click)="changeModeAction()">{{isChangeModeActive ? "save" : "modify"}}</button>
