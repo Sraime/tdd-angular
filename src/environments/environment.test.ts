@@ -7,24 +7,24 @@ export const environment = {
 
   api: {
     auth: {
-      url: "http://localhost:3000/auth",
+      url: "http://localhost:3001/auth",
     },
     scenario: {
-      url: "http://localhost:3000/scenario",
+      url: "http://localhost:3001/scenario",
     },
     feature: {
-      url: "http://localhost:3000/feature",
+      url: "http://localhost:3001/feature",
     },
     project: {
-      url: "http://localhost:3000/project",
+      url: "http://localhost:3001/project",
     },
     user: {
-      url: "http://localhost:3000/user",
+      url: "http://localhost:3001/user",
     },
   },
   socket: {
     board: {
-      url: "http://localhost:3000",
+      url: "http://localhost:3001",
     },
   },
 };

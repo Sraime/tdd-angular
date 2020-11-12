@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<unitTest version="1">
-    <file path="/Users/sobraz/Documents/workspace/training/tdd-angular/src/app/global-message/global-message.component.spec.ts">
-        <testCase name="GlobalMessageComponent should create" duration="69"/>
-    </file>
-</unitTest>

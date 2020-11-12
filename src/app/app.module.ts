@@ -1,18 +1,25 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, APP_INITIALIZER } from "@angular/core";
 
-import { AppComponent } from './app.component';
-import { GlobalMessageComponent } from './global-message/global-message.component';
+import { AppComponent } from "./app.component";
+import { AppRoutingModule } from "./app-routing.module";
+import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MatButtonModule } from "@angular/material/button";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { BrowserModule } from "@angular/platform-browser";
+import { EditTextComponent } from './edit-text/edit-text.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    GlobalMessageComponent
-  ],
+  declarations: [AppComponent, PageNotFoundComponent, EditTextComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
   ],
+  exports: [],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
