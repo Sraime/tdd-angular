@@ -2,15 +2,14 @@ import { NgModule, APP_INITIALIZER } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
-import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatButtonModule } from "@angular/material/button";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { BrowserModule } from "@angular/platform-browser";
-import { EditTextComponent } from './edit-text/edit-text.component';
+import { EditTextComponent } from "./edit-text/edit-text.component";
 
 @NgModule({
-  declarations: [AppComponent, PageNotFoundComponent, EditTextComponent],
+  declarations: [AppComponent, EditTextComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

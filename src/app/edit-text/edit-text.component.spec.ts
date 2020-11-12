@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { By } from "@angular/platform-browser";
 
 import { EditTextComponent } from "./edit-text.component";
 

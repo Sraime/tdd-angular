@@ -6,7 +6,6 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./edit-text.component.scss"],
 })
 export class EditTextComponent implements OnInit {
-  message: string;
   constructor() {}
 
   ngOnInit(): void {}
