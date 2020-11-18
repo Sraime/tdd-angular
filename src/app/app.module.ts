@@ -7,6 +7,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { BrowserModule } from "@angular/platform-browser";
 import { EditTextComponent } from "./edit-text/edit-text.component";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [AppComponent, EditTextComponent],
@@ -16,6 +17,7 @@ import { EditTextComponent } from "./edit-text/edit-text.component";
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
+    FormsModule,
   ],
   exports: [],
   providers: [],

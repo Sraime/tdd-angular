@@ -6,13 +6,17 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./edit-text.component.scss"],
 })
 export class EditTextComponent implements OnInit {
-  message: string = "default message";
-  isEditMode: boolean = false;
+  public message: string;
+  public isEditMode: boolean;
+
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {
+    this.message = "default message";
+    this.isEditMode = false;
+  }
 
-  switchToEditMode() {
-    this.isEditMode = true;
+  changeModeAction() {
+    this.isEditMode = !this.isEditMode;
   }
 }
